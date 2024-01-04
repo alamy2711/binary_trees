@@ -5,10 +5,16 @@
 + Project Name: Binary trees
 + Language: C
 + Group Project: Yes
-+ Project has been done in teams of 2 people (your team: Mustapha El Alamy, Omar Driouch)
++ Project has been done in teams of 2 people (**Mustapha El Alamy**, **Omar Driouch**)
 
 ## Project Description
-This project aims to deepen your understanding of binary trees and related concepts in data structures and algorithms. By exploring topics such as binary trees, binary search trees, tree traversal, and associated terminology, you will gain a comprehensive grasp of these fundamental structures. Key learning objectives include distinguishing between a binary tree and a Binary Search Tree, understanding the potential time complexity benefits compared to linked lists, and grasping concepts like depth, height, and size of a binary tree. Additionally, you will explore different traversal methods and become familiar with the characteristics of complete, full, perfect, and balanced binary trees. Upon completion, you should be able to articulate these concepts confidently without relying on external resources like Google.
+This project aims to deepen your understanding of binary trees and related concepts in data structures and algorithms. By exploring topics such as binary trees, binary search trees, tree traversal, and associated terminology, you will gain a comprehensive grasp of these fundamental structures. 
+
+Key learning objectives include distinguishing between a binary tree and a Binary Search Tree, understanding the potential time complexity benefits compared to linked lists, and grasping concepts like depth, height, and size of a binary tree. 
+
+Additionally, you will explore different traversal methods and become familiar with the characteristics of complete, full, perfect, and balanced binary trees. 
+
+Upon completion, you should be able to articulate these concepts confidently without relying on external resources like Google.
 
 ## Learning Objectives
 At the end of this project, you should be able to:
@@ -45,11 +51,19 @@ Learning Objectives:
 
   
 ## Usage
-+ Clone the project to your local machine and run this project by using this command 
++ Clone the project to your local machine
+
+```
+git clone https://github.com/alamy2711/binary_trees.git
+
+```
+
+
++ Run this command to compile the project
+ 
 ```
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-binary_tree_insert_left.c 0-binary_tree_node.c -o Output
 ```
-
 
 ## Project Data structures
 ```
@@ -89,6 +103,6 @@ typedef struct binary_tree_s heap_t;
 ```
 
 ## Contributors
-+ Mustapha El Alamy
-+ Omar Driouch
++ Mustapha El Alamy - [Github Profile](https://github.com/alamy2711/)
++ Omar Driouch - [LinkedIn Profile](https://www.linkedin.com/in/omar-driouch/)
 
