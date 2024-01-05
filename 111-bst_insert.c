@@ -29,7 +29,10 @@ bst_t *bst_insert(bst_t **tree, int value)
 	{
 		parent = tmp;
 		if (value == tmp->n)
+		{
+			free(newNode);
 			return (*tree);
+		}
 		else if (value < tmp->n)
 			tmp = tmp->left;
 		else
